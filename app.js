@@ -88,10 +88,10 @@ const conn = mysql.createConnection({
 });
 
 //connect ke database
-conn.connect((err) =>{
-  if(err) throw err;
-  console.log('Mysql Connected...');
-});
+// conn.connect((err) =>{
+//   if(err) throw err;
+//   console.log('Mysql Connected...');
+// });
 
 //set views file
 app.set('views',path.join(__dirname,'views'));
